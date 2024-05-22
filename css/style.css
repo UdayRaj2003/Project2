@@ -1,0 +1,125 @@
+/* 
+https://getflowersdaily.com/shop/assorted-loose-flowers/ */
+
+
+:root {
+    --textcolor: bisque;
+    --bgcolor: #023e49;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+    z-index: 1500;
+}
+
+.bd-mode-toggle .dropdown-menu .active .bi {
+    display: block !important;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: var(--textcolor);
+    font-size: 18px;
+}
+
+.colorhead {
+    color: var(--textcolor);
+}
+
+.navbar-dark .navbar-nav .nav-link.factive {
+    color: rgb(235, 105, 105);
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 30px;
+}
+
+.body {
+    height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-color: var(--bgcolor);
+    padding: 0px;
+    margin: 0px;
+
+    /* background-image: url('https://mdbootstrap.com/img/new/fluid/city/018.jpg'); */
+    /* background-image: url(/Peroject1/img/mainbg.jpeg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+}
+
+#searchform {
+    /* background-color: bisque; */
+    color: rgb(7, 67, 85);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.searchbutton:hover {
+    /* padding:1px; */
+    /* font-weight: bold; */
+    background-color: var(--textcolor);
+    color: var(--bgcolor);
+}
+
+.txt {
+    color: var(--textcolor);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img-fluid {
+    height: 600px;
+    width: 100%; 
+    cursor: none;
+    object-fit: cover;
+    /* width:600px
+    ; */
+}
+
+/* .bg-color {
+    background-color: var(--bgcolor);
+} */
